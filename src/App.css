@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+div {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+
+:root {
+    --color-one: #1C232E;
+    --color-two: #F49728;
+    --color-three: #747474;
+    --color-four: #181619;
+    --color-five: #A66920;
+    --color-six: #FFFCF7;
+    
+}
+
+.App {
+    background-color: var(--color-one);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.cc-logo{
+    width: 80px;
+    height: 80px;
+    padding: 34.5PX;
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 25px;
+}
+.text-link {
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px 1px var(--color-five);
+    color: var(--color-two);
+    text-decoration: none;
+    transition: 0.7s all;
+}
+
+.text-link:hover {
+    color: var(--color-five);
+}   
